@@ -1,0 +1,64 @@
+body.light {
+  background-color: #fff;
+  color: #000;
+}
+body.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+}
+
+.task-box {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background-color: #fafafa;
+  min-height: 150px;
+}
+
+button {
+  margin: 5px 8px 5px 0;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input {
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
